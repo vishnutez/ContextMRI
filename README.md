@@ -1,7 +1,7 @@
 # ContextMRI
 This repository is the official implementation of "ContextMRI: Enhancing Compressed Sensing MRI through Metadata Conditioning"
 
-![main_figure](assets/main.pdf)
+![main_figure](assets/method.png)
 ---
 ## 🔥 Summary 
 
