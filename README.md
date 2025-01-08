@@ -1,14 +1,11 @@
 # ContextMRI
 This repository is the official implementation of "ContextMRI: Enhancing Compressed Sensing MRI through Metadata Conditioning"
 
+![main_figure](assets/main.pdf)
 ---
-## 🔥 Summary
+## 🔥 Summary 
 
-**VideoGuide** 🚀 enhances temporal quality in video diffusion models *without additional training or fine-tuning* by leveraging a pretrained model as a guide. During inference, it uses a guiding model to provide a temporally consistent sample, which is interpolated with the sampling model's output to improve consistency. VideoGuide shows the following advantages:
-
-1. **Improved temporal consistency** with preserved imaging quality and motion smoothness
-2. **Fast inference** as application only to early steps is proved sufficient
-4. **Prior distillation** of the guiding model
+Compressed sensing MRI seeks to accelerate MRI acquisition processes by sampling fewer k-space measurements and then reconstructing the missing data algorithmically. The success of these approaches often relies on strong priors or learned statistical models. While recent diffusion model-based priors have shown great potential, previous methods typically ignore clinically available metadata (e.g. patient demographics, imaging parameters, slice-specific information). In practice, metadata contains meaningful cues about the anatomy and acquisition protocol, suggesting it could further constrain the reconstruction problem. In this work, we propose ContextMRI, a text-conditioned diffusion model for MRI that integrates granular metadata into the reconstruction process. We train a pixel-space diffusion model directly on minimally processed, complex-valued MRI images. During inference, metadata is converted into a structured text prompt and fed to the model via CLIP text embeddings. By conditioning the prior on metadata, we unlock more accurate reconstructions and show consistent gains across multiple datasets, acceleration factors, and undersampling patterns. Our experiments demonstrate that increasing the fidelity of metadata—ranging from slice location and contrast to patient age, sex, and pathology—systematically boosts reconstruction performance. This work highlights the untapped potential of leveraging clinical context for inverse problems and opens a new direction for metadata-driven MRI reconstruction.
 
 ## 🗓 ️News
 - [9 Jan 2025] Code are uploaded.
