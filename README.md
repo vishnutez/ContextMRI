@@ -1,5 +1,5 @@
 # ContextMRI
-This repository is the official implementation of "ContextMRI: Enhancing Compressed Sensing MRI through Metadata Conditioning"
+Official implementation of "[ContextMRI: Enhancing Compressed Sensing MRI through Metadata Conditioning](https://arxiv.org/abs/2501.04284)" by [Hyungjin Chung*](https://www.hj-chung.com/), [Dohun Lee*](https://scholar.google.co.kr/citations?user=vnzsr1UAAAAJ&hl=ko), [Zihui Wu](https://zihuiwu.github.io/), [Byung-Hoon Kim](https://egyptdj.notion.site/NAIPL-f6283de309a04223b1c04793f5a10ce1), [Katherine L. Bouman](http://users.cms.caltech.edu/~klbouman/), and [Jong Chul Ye](https://bispl.weebly.com/professor.html).
 
 ![main_figure](assets/method.png)
 ---
@@ -34,6 +34,15 @@ An example of using **ContextMRI** is provided in the inference.sh, recon_mri.sh
 
 ## 📝 Citation
 If you find our method useful, please cite as below or leave a star to this repository.
+
+```
+@article{chung2025contextmri,
+  title={ContextMRI: Enhancing Compressed Sensing MRI through Metadata Conditioning},
+  author={Chung, Hyungjin and Lee, Dohun and Wu, Zihui and Kim, Byung-Hoon and Bouman, Katherine L. and Ye, Jong Chul},
+  journal={arXiv preprint arXiv:2501.04284},
+  year={2025}
+}
+```
 
 ## 🤗 Acknowledgements
 We thank the contributors of [DeepFloyd](https://github.com/deep-floyd/IF) for sharing their awesome work. 
